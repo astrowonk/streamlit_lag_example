@@ -10,6 +10,14 @@ value1 = {}
 value2 = {}
 n_elements = 2
 
+st.markdown("""
+
+## Text lag example
+
+Type text in any form field, it should work ok. Then pick plotly and submit and try again. There is ~300ms or more lag for each character typed into any field after the plotly graphs are rendered.
+
+""")
+
 with st.form('my-form'):
     col1, col2, col3 = st.columns(3)
     with col1:
